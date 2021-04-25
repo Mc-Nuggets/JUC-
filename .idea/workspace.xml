@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fca80302-d673-4f89-8b69-fbbadfea8ce5" name="Default" comment="JUC练习">
+    <list default="true" id="fca80302-d673-4f89-8b69-fbbadfea8ce5" name="Default" comment="JUC练习 04.25">
+      <change afterPath="$PROJECT_DIR$/../JUC-test/src/main/java/pool/Demo01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JUC-test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JUC-test/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -74,8 +75,8 @@
       <file leaf-file-name="BlockQueueTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../JUC-test/src/main/java/blocking_queue/BlockQueueTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="51" column="72" selection-start-line="51" selection-start-column="72" selection-end-line="51" selection-end-column="72" />
+            <state relative-caret-position="283">
+              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#test1#0;class#BlockQueueTest#0" />
@@ -86,7 +87,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SynQueueTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Demo01.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../JUC-test/src/main/java/pool/Demo01.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="369">
+              <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SynQueueTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../JUC-test/src/main/java/blocking_queue/SynQueueTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
@@ -131,6 +144,7 @@
         <option value="$PROJECT_DIR$/../JUC-test/src/main/java/rwLock/ReadWriteLockTest.java" />
         <option value="$PROJECT_DIR$/../JUC-test/src/main/java/blocking_queue/BlockQueueTest.java" />
         <option value="$PROJECT_DIR$/../JUC-test/src/main/java/blocking_queue/SynQueueTest.java" />
+        <option value="$PROJECT_DIR$/../JUC-test/src/main/java/pool/Demo01.java" />
       </list>
     </option>
   </component>
@@ -202,22 +216,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="JUC-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JUC-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="blocking_queue" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JUC-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JUC-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lock8" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -248,18 +246,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SynQueueTest">
-    <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="product_consumer.A" />
-      <module name="JUC-test" />
-      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="product_consumer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Application.Demo01">
     <configuration name="B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="product_consumer.B" />
       <module name="JUC-test" />
@@ -278,6 +265,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="blocking_queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Demo01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pool.Demo01" />
+      <module name="JUC-test" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -346,19 +344,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.A" />
       <item itemvalue="Application.B" />
       <item itemvalue="Application.ReadWriteLockTest" />
       <item itemvalue="Application.BlockQueueTest" />
       <item itemvalue="Application.SynQueueTest" />
+      <item itemvalue="Application.Demo01" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo01" />
         <item itemvalue="Application.SynQueueTest" />
         <item itemvalue="Application.BlockQueueTest" />
         <item itemvalue="Application.ReadWriteLockTest" />
         <item itemvalue="Application.B" />
-        <item itemvalue="Application.A" />
       </list>
     </recent_temporary>
   </component>
@@ -374,31 +372,46 @@
       <updated>1619148587975</updated>
       <workItem from="1619148591551" duration="1882000" />
       <workItem from="1619158963380" duration="4386000" />
-      <workItem from="1619313131476" duration="9557000" />
+      <workItem from="1619313131476" duration="10954000" />
     </task>
+    <task id="LOCAL-00001" summary="JUC练习">
+      <created>1619342419805</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1619342419805</updated>
+    </task>
+    <task id="LOCAL-00002" summary="JUC练习 04.25">
+      <created>1619342455496</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1619342455496</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15825000" />
+    <option name="totallyTimeSpent" value="17222000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1552" height="880" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49933067" visible="true" weight="0.32965517" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49933067" weight="0.32965517" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50066936" side_tool="true" visible="true" weight="0.32965517" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50133866" side_tool="true" weight="0.32965517" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32965517" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49933067" weight="0.32965517" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4986613" visible="true" weight="0.32965517" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25635877" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25635877" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -425,11 +438,12 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="JUC练习" />
-    <option name="LAST_COMMIT_MESSAGE" value="JUC练习" />
+    <MESSAGE value="JUC练习 04.25" />
+    <option name="LAST_COMMIT_MESSAGE" value="JUC练习 04.25" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="6" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -538,19 +552,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../JUC-test/src/main/java/blocking_queue/BlockQueueTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="51" column="72" selection-start-line="51" selection-start-column="72" selection-end-line="51" selection-end-column="72" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#test1#0;class#BlockQueueTest#0" />
-            <element signature="method#test2#0;class#BlockQueueTest#0" />
-            <element signature="method#test3#0;class#BlockQueueTest#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/AbstractQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -562,6 +563,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="26" column="34" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../JUC-test/src/main/java/blocking_queue/BlockQueueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#test1#0;class#BlockQueueTest#0" />
+            <element signature="method#test2#0;class#BlockQueueTest#0" />
+            <element signature="method#test3#0;class#BlockQueueTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../JUC-test/src/main/java/pool/Demo01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
