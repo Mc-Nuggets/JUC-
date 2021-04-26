@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fca80302-d673-4f89-8b69-fbbadfea8ce5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../JUC-test/src/main/java/function/FuncDemo01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JUC-test/src/main/java/function/FuncDemo02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JUC-test/src/main/java/function/FuncDemo03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JUC-test/src/main/java/stream/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JUC-test/src/main/java/stream/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JUC-test/src/main/java/volatileTest/JMMTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JUC-test/src/main/java/volatileTest/JMMTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUC-test/src/main/java/single/Hungry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUC-test/src/main/java/single/LazyMan.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JUC-test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JUC-test/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JUC-test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JUC-test/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,7 +26,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JMMTest2.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="JMMTest2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../JUC-test/src/main/java/volatileTest/JMMTest2.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="125">
@@ -41,6 +35,32 @@
                 <element signature="imports" expanded="true" />
                 <element signature="e#109#110#0" expanded="true" />
                 <element signature="e#127#128#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Hungry.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../JUC-test/src/main/java/single/Hungry.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+              <folding>
+                <element signature="e#159#160#0" expanded="true" />
+                <element signature="e#187#188#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LazyMan.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../JUC-test/src/main/java/single/LazyMan.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+              <folding>
+                <element signature="e#66#67#0" expanded="true" />
+                <element signature="e#102#103#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -83,6 +103,8 @@
         <option value="$PROJECT_DIR$/../JUC-test/src/main/java/future/FutureTest.java" />
         <option value="$PROJECT_DIR$/../JUC-test/src/main/java/volatileTest/JMMTest.java" />
         <option value="$PROJECT_DIR$/../JUC-test/src/main/java/volatileTest/JMMTest2.java" />
+        <option value="$PROJECT_DIR$/../JUC-test/src/main/java/single/Hungry.java" />
+        <option value="$PROJECT_DIR$/../JUC-test/src/main/java/single/LazyMan.java" />
       </list>
     </option>
   </component>
@@ -160,15 +182,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="unsafe" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JUC-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JUC-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="volatileTest" type="462c0819:PsiDirectoryNode" />
+              <item name="single" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -200,7 +214,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JMMTest2">
+  <component name="RunManager" selected="Application.LazyMan">
     <configuration name="Demo01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pool.Demo01" />
       <module name="JUC-test" />
@@ -208,17 +222,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="pool.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="ForkJoinTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="forkJoin.ForkJoinTest" />
-      <module name="JUC-test" />
-      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="forkJoin.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -267,6 +270,17 @@
         </pattern>
       </extension>
     </configuration>
+    <configuration name="LazyMan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="single.LazyMan" />
+      <module name="JUC-test" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="single.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -310,18 +324,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.FuncDemo02" />
-      <item itemvalue="Application.ForkJoinTest" />
       <item itemvalue="Application.FutureTest" />
       <item itemvalue="Application.JMMTest" />
       <item itemvalue="Application.JMMTest2" />
+      <item itemvalue="Application.LazyMan" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LazyMan" />
         <item itemvalue="Application.JMMTest2" />
         <item itemvalue="Application.JMMTest" />
         <item itemvalue="Application.FutureTest" />
         <item itemvalue="Application.FuncDemo02" />
-        <item itemvalue="Application.ForkJoinTest" />
       </list>
     </recent_temporary>
   </component>
@@ -337,7 +351,7 @@
       <updated>1619148587975</updated>
       <workItem from="1619148591551" duration="1882000" />
       <workItem from="1619158963380" duration="4386000" />
-      <workItem from="1619313131476" duration="21793000" />
+      <workItem from="1619313131476" duration="22558000" />
     </task>
     <task id="LOCAL-00001" summary="JUC练习">
       <created>1619342419805</created>
@@ -367,11 +381,18 @@
       <option name="project" value="LOCAL" />
       <updated>1619345886036</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="JUC练习 04.25">
+      <created>1619430146291</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1619430146291</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28061000" />
+    <option name="totallyTimeSpent" value="28826000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1552" height="880" extended-state="0" />
@@ -680,6 +701,28 @@
             <element signature="imports" expanded="true" />
             <element signature="e#109#110#0" expanded="true" />
             <element signature="e#127#128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../JUC-test/src/main/java/single/Hungry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <element signature="e#159#160#0" expanded="true" />
+            <element signature="e#187#188#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../JUC-test/src/main/java/single/LazyMan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <folding>
+            <element signature="e#66#67#0" expanded="true" />
+            <element signature="e#102#103#0" expanded="true" />
           </folding>
         </state>
       </provider>
