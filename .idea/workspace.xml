@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fca80302-d673-4f89-8b69-fbbadfea8ce5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../JUC-test/src/main/java/single/Hungry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JUC-test/src/main/java/single/LazyMan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUC-test/src/main/java/cas/CASDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUC-test/src/main/java/cas/CASDemo2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JUC-test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JUC-test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JUC-test/src/main/java/single/LazyMan.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JUC-test/src/main/java/single/LazyMan.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -53,14 +54,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LazyMan.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../JUC-test/src/main/java/single/LazyMan.java">
+      <file leaf-file-name="CASDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../JUC-test/src/main/java/cas/CASDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+            <state relative-caret-position="225">
+              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CASDemo2.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../JUC-test/src/main/java/cas/CASDemo2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="283">
+              <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
               <folding>
-                <element signature="e#66#67#0" expanded="true" />
-                <element signature="e#102#103#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -105,6 +114,8 @@
         <option value="$PROJECT_DIR$/../JUC-test/src/main/java/volatileTest/JMMTest2.java" />
         <option value="$PROJECT_DIR$/../JUC-test/src/main/java/single/Hungry.java" />
         <option value="$PROJECT_DIR$/../JUC-test/src/main/java/single/LazyMan.java" />
+        <option value="$PROJECT_DIR$/../JUC-test/src/main/java/cas/CASDemo.java" />
+        <option value="$PROJECT_DIR$/../JUC-test/src/main/java/cas/CASDemo2.java" />
       </list>
     </option>
   </component>
@@ -182,7 +193,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="single" type="462c0819:PsiDirectoryNode" />
+              <item name="cas" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -214,7 +225,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LazyMan">
+  <component name="RunManager" selected="Application.CASDemo2">
+    <configuration name="CASDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cas.CASDemo" />
+      <module name="JUC-test" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="CASDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cas.CASDemo2" />
+      <module name="JUC-test" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="Demo01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pool.Demo01" />
       <module name="JUC-test" />
@@ -222,28 +255,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="pool.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="FuncDemo02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="function.FuncDemo02" />
-      <module name="JUC-test" />
-      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="function.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="FutureTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="future.FutureTest" />
-      <module name="JUC-test" />
-      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="future.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -323,19 +334,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.FuncDemo02" />
-      <item itemvalue="Application.FutureTest" />
       <item itemvalue="Application.JMMTest" />
       <item itemvalue="Application.JMMTest2" />
       <item itemvalue="Application.LazyMan" />
+      <item itemvalue="Application.CASDemo" />
+      <item itemvalue="Application.CASDemo2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CASDemo2" />
+        <item itemvalue="Application.CASDemo" />
         <item itemvalue="Application.LazyMan" />
         <item itemvalue="Application.JMMTest2" />
         <item itemvalue="Application.JMMTest" />
-        <item itemvalue="Application.FutureTest" />
-        <item itemvalue="Application.FuncDemo02" />
       </list>
     </recent_temporary>
   </component>
@@ -351,7 +362,7 @@
       <updated>1619148587975</updated>
       <workItem from="1619148591551" duration="1882000" />
       <workItem from="1619158963380" duration="4386000" />
-      <workItem from="1619313131476" duration="22558000" />
+      <workItem from="1619313131476" duration="28300000" />
     </task>
     <task id="LOCAL-00001" summary="JUC练习">
       <created>1619342419805</created>
@@ -388,11 +399,18 @@
       <option name="project" value="LOCAL" />
       <updated>1619430146291</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="JUC练习 04.26">
+      <created>1619430915911</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1619430915912</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28826000" />
+    <option name="totallyTimeSpent" value="34568000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1552" height="880" extended-state="0" />
@@ -440,11 +458,12 @@
     </ignored-roots>
     <MESSAGE value="JUC练习" />
     <MESSAGE value="JUC练习 04.25" />
-    <option name="LAST_COMMIT_MESSAGE" value="JUC练习 04.25" />
+    <MESSAGE value="JUC练习 04.26" />
+    <option name="LAST_COMMIT_MESSAGE" value="JUC练习 04.26" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="9" />
+      <option name="time" value="12" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -705,6 +724,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../JUC-test/src/main/java/single/LazyMan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../JUC-test/src/main/java/single/Hungry.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -716,13 +745,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../JUC-test/src/main/java/single/LazyMan.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/jre/lib/rt.jar!/sun/misc/Unsafe.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        <state relative-caret-position="135">
+          <caret line="305" column="13" selection-start-line="305" selection-start-column="13" selection-end-line="305" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="157" column="25" lean-forward="true" selection-start-line="157" selection-start-column="25" selection-end-line="157" selection-end-column="25" />
           <folding>
-            <element signature="e#66#67#0" expanded="true" />
-            <element signature="e#102#103#0" expanded="true" />
+            <element signature="e#4021#4022#0" expanded="true" />
+            <element signature="e#4085#4086#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../JUC-test/src/main/java/cas/CASDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../JUC-test/src/main/java/cas/CASDemo2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
